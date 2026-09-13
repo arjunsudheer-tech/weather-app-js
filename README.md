@@ -2,10 +2,6 @@
 
 A JavaScript weather application that fetches real-time weather information using the **OpenWeatherMap API**. Users can search for a city and view its current weather conditions through a simple interface.
 
-## 🚀 Live Demo
-
-[View Live Demo](YOUR_GITHUB_PAGES_URL)
-
 ## 📸 Preview
 
 ![Weather App Preview](./preview-1.png)
