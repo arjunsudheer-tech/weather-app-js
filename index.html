@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <title>Weather App</title>
+</head>
+<body>
+  <div class="main-container">
+    <h1 class="heading">Weather App</h1>
+    <div class="search-bar">
+      <input class="search-input" placeholder="Enter city name" type="text">
+      <button class="search-icon">
+        <i class="fas fa-search"></i>
+      </button>
+    </div>
+
+    <p class="error-message"></p>
+
+    <div class="weather-container">
+      <img class="weather-icon-image" src="" alt="">
+      <div class="temperature"></div>
+      <div class="city-name"></div>
+      <div class="weather-condition"></div>
+    </div>
+    <div class="weather-info">
+      <div class="humidity">
+        <i class="fas fa-tint data-icon"></i>
+        <div class="humidity-details">
+          <span></span>
+          <p>Humidity</p>
+        </div>
+      </div>
+      <div class="wind-speed">
+        <i class="fas fa-wind data-icon"></i>
+        <div class="wind-speed-details">
+          <span></span>
+          <p>Windspeed</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
